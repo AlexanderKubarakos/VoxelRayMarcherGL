@@ -13,6 +13,9 @@ public:
 
 	GLFWwindow* getGLFWWindow();
 	bool shouldWindowClose();
+
+	int getHeight();
+	int getWidth();
 private:
 	GLFWwindow* _window;
 	int _height;

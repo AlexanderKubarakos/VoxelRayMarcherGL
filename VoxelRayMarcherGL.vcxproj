@@ -130,14 +130,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\ComputeShader.cpp" />
     <ClCompile Include="src\Core.cpp" />
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\VoxelRayMarcherGL.cpp" />
     <ClCompile Include="src\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\ComputeShader.hpp" />
     <ClInclude Include="src\Core.hpp" />
     <ClInclude Include="src\Window.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\RayMarcher.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

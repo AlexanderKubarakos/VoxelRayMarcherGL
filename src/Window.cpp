@@ -41,4 +41,12 @@ namespace VRM {
 	bool Window::shouldWindowClose() {
 		return glfwWindowShouldClose(_window);
 	}
+
+	int Window::getHeight() {
+		return _height;
+	}
+
+	int Window::getWidth() {
+		return _width;
+	}
 }
