@@ -30,6 +30,9 @@
     <ClCompile Include="src\ComputeShader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Window.hpp">
@@ -41,8 +44,13 @@
     <ClInclude Include="src\ComputeShader.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\RayMarcher.glsl" />
+    <None Include="shaders\Vertex.glsl" />
+    <None Include="shaders\Fragment.glsl" />
   </ItemGroup>
 </Project>
